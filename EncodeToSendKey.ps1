@@ -7,13 +7,13 @@ $OutPutFile
 <#
 
 You have to Encode your file into Base64 to be able to transfer it via SendKey as it is not able to send 
-special characters such as ')' which fucks the whole transfer. 
+special characters such as ')' 
 
 However! With base64 encoding we can even tweak it to send over Binaries which is pretty damn cool. 
 
 #>
 
-function EncodeDatHoe
+function EncodeDatFile
 
 {
 
@@ -46,7 +46,7 @@ Remember to add a "+" to the end of your file on the other end as Sendkey can't 
 
 }
 
-EncodeDatHoe
+EncodeDatFile
 
 <#
 
@@ -65,12 +65,6 @@ INSTRUCTIONS
 6). Wait... Once the File Finishes Transferring add a + to the end of the File as it does not send this character
 
 7). Copy the Decode Script over to the SDI Environment and run it with the Correct Variables
-
-8). Pizza
-
-9). Giant Cheese Cloth 
-
-10). Hit Dick in the Head
 
 #>
 
